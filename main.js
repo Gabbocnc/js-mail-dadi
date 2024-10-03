@@ -7,11 +7,11 @@ let access = ['']
 
 // chiedo all utente l email
 
-let mail = prompt('Inserisci la tua email');
+let email = prompt('Inserisci la tua email');
 
 //faccio un check dell email all interno della lista e stampo i messaggi 
 
-if (mail=access.includes(mail)){
+if (email=access.includes(email)){
     alert('Welcome');
     
 }else{
