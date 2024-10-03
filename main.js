@@ -13,7 +13,7 @@ let email = prompt('Inserisci la tua email');
 
 //faccio un check dell email all interno della lista e stampo i messaggi 
 
-if (email=access.includes(email)){
+if (access.includes(email)){
     alert('Welcome');
     
 }else{
