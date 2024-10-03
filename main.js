@@ -3,7 +3,9 @@
 
 // creo una lista di chi puo accedere
 
-let access = ['']
+let access = [
+    'example@gmail.com'
+]
 
 // chiedo all utente l email
 
