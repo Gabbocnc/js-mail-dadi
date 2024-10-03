@@ -32,8 +32,8 @@ let player = Math.floor(Math.random() * 6) + 1;
 
 let pc = Math.floor(Math.random() * 6) + 1;
 
-console.log('Il player ha tirato', + player);
-console.log('Il pc ha tirato', + pc);
+alert(`Il player ha tirato: ${player}`);
+alert(`Il pc ha tirato: ${pc}`);
 
 //check dei numeri 
 
@@ -44,3 +44,7 @@ if (player > pc){
 }else{
     alert('Pareggio');
 }
+
+console.log(player);
+console.log(pc);
+
